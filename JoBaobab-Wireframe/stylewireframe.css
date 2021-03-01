@@ -1,3 +1,10 @@
+.PAGE {
+  width: 70%;
+  height: 700px;
+  border: solid red 2px;
+  margin: auto;
+  margin-top: 3%;
+}
 /*HEADER*/
 
 header{
@@ -17,7 +24,7 @@ nav{
 }
 nav p{
   margin-right: 30px;
-  font-size: 30px;
+  font-size: 1.5vw;
 }
 
 /*BANNIERE*/
@@ -63,9 +70,8 @@ section{
   grid-area: 2 / 8 / 8 / 10;
 }
 h3{
-  font-size: 30px;
-  margin-top: 80px;
-  margin-left: 200px;
+  font-size: 1.7vw;
+  text-align: center;
 }
 
 /*PAGE 3*/
@@ -81,7 +87,7 @@ h3{
   background-color: grey;
   grid-area: 1 / 1 / 11 / 19;
 }
-#PROJET{
+#PROJET1{
   background-color: lightgrey;
   grid-area: 12 / 8 / 15 / 13;
 }
@@ -108,11 +114,11 @@ h3{
 
 /*PAGE 4*/
 
-#DEMANDE{
-  margin-top: 60px;
-  margin-left: 750px;
+#PAGE4{
+  text-align: center;
 }
 #FORMULAIRE{
+  margin: auto;
   border: solid, black, 2px;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
@@ -158,7 +164,7 @@ grid-area: 2 / 3 / 3 / 7;
   grid-area: 9 / 3 / 10 / 7;
 }
 #ENVOYER p{
-  margin-left: 450px;
+  text-align: center;
 }
 
 /*PAGE 5*/
@@ -166,26 +172,32 @@ grid-area: 2 / 3 / 3 / 7;
 #PAGE5{
   background-color: darkgrey;
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: repeat(8, 1fr);
+  grid-template-columns: 35% 65%;
+  grid-template-rows: 50% 40% 10%;
+  height: 700px;
 }
 #IMAGE5{
   background-color: grey;
-  grid-area: 1 / 1 / 3 / 7;
+  grid-area: 1 / 1 / 2 / 3;
   }
 #LOGO{
   background-color: grey;
-  grid-area: 3 / 1 / 4 / 2;
+  grid-area: 2 / 1 / 3 / 2;
 }
+#FOOTER{
+  display: flex;
+  justify-content: space-between;
+  grid-area: 2 / 2 / 3 / 3;
+}
+
 #CONTACT{
-  background-color: lightgrey;
-  grid-area: 3 / 3 / 4 / 5;
+  margin-right: 3%;
 }
 #PLAN{
-  background-color: lightgrey;
-  grid-area: 3 / 5 / 4 / 7;
+
 }
 #COPY{
   background-color: grey;
-  grid-area: 4 / 6 / 4 / 7;
+  grid-area: 3 / 2 / 4 / 3;
+  text-align: right;
 }
