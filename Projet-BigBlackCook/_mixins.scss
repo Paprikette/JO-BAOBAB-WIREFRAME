@@ -1,3 +1,8 @@
+@mixin body {
+  margin: 0;
+  background-image: url("images/beach-1494649_1920.jpg");
+}
+
 @mixin font {
   font-family: "futura", sans-serif;
   font-size: 1em;

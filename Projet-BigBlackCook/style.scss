@@ -1,6 +1,7 @@
+@import "./mixins.scss";
+
 body{
-  margin: 0;
-  background-image: url("images/beach-1494649_1920.jpg");
+@include body;
 }
 
 //header//
@@ -20,7 +21,7 @@ header{
     padding: 10px;
     box-sizing: border-box;
     font-size: 28px;
-    font-weight: 900;
+    font-weight: 900px;
     vertical-align: middle;
   }
 
