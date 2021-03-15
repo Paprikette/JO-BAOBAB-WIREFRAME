@@ -1,0 +1,55 @@
+/* HEADER */
+
+header {
+  display: block;
+  box-sizing: content-box;
+  width: 100%;
+  background-color: white;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*NAV BAR*/
+
+nav {
+  background-color: #322B6B;
+
+}
+
+ul {
+  box-sizing: content-box;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #322B6B;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Roboto;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #AAA8B0;
+}
+
+
+/*MAIN*/
+
+.HTMLCSS {
+  display: block;
+  font-family: Roboto;
+}
